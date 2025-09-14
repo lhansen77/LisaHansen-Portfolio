@@ -33,7 +33,7 @@ Brought insights to life with plots, making patterns clearer and more intuitive 
 - Financial and seismic datasets
 
 ## 🔗 GitHub Repository  
-[View Full Project](https://github.com/lhansen77/FAANG-Earthquake-Analysis) *(Update this link once uploaded)*
+[View Full Project](https://github.com/lhansen77/LisaHansen-Portfolio)
 
 ## 📄 Download PDF Summary  
 [View PDF](LisaHansen_FAANG_Earthquake.pdf) *(Upload your notebook as a PDF and rename it to match)*
