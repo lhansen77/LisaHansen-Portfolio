@@ -9,8 +9,7 @@ Hi, I’m **Lisa Hansen**—a Data Science graduate with a background in healthc
 - 📘 [About Me](about.md)  
 - 📬 [Contact](contact.md)  
 - 💼 [Projects](work.md)  
-- 📄 [Resume](https://github.com/lhansen77/LisaHansen-Portfolio/blob/main/LisaHansen_Resume.pdf)
-
+- 📄📄 [Resume](LisaHansen_Resume.pdf)
 ---
 
 ## 🧠 Featured Notebook
