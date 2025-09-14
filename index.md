@@ -8,7 +8,10 @@ Hi, I’m **Lisa Hansen**—a Data Science graduate with a background in healthc
 
 - 📘 [About Me](about.md)  
 - 📬 [Contact](contact.md)  
-- 💼 [Projects](work.md)  
+-  💼 Projects
+
+- 📊 [FAANG & Earthquake Analysis](project1.md)
+- 🔗 [Full Project Gallery](work.md)
 - 📄 [Resume](LisaHansen_Resume.pdf.pdf)
 ---
 
