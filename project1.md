@@ -4,7 +4,7 @@
 This page features my Sprint 1 submission for the Climate Change Data Analysis project. Completed collaboratively, this milestone explores global temperature trends, anomaly detection, and forecasting using time series modeling. The goal was to uncover meaningful climate patterns and support long-term environmental planning.
 
 **📄 Full Submission**  
-🔗 [Click here to view the PDF](Global_Temp_Scientists_Final_Handoff1%20(1).pdf)
+🔗 [Click here to view the Jupyter Notebook on GitHub](https://github.com/lhansen77/LisaHansen-Portfolio/blob/main/Sprint1_ClimateAnalysis.ipynb)
 
 **🧠 Key Objectives**
 - Analyze historical temperature data across continents and decades
