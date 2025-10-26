@@ -4,7 +4,7 @@
 This page contains my Sprint 1 submission for the Climate Change Data Analysis project.
 
 **Download or View the Full Project:**  
-[Click here to view the Jupyter Notebook](ClimateChangeDataAnalysisSprint1_Milestone.ipynb)
+[Click here to view the Jupyter Notebook on GitHub](https://github.com/lhansen77/LisaHansen-Portfolio/blob/main/ClimateChangeDataAnalysisSprint1_Milestone.ipynb)
 
 **Summary:**  
 This sprint focused on:
