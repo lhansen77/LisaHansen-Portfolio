@@ -1,52 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Lisa Hansen – Data Science Portfolio</title>
   <meta charset="UTF-8">
+  <title>Lisa Hansen – Data Science Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background-color: #004466;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header {
+      text-align: center;
+      padding: 2em;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 1.5em;
+      margin-bottom: 1.5em;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .connect {
+      background-color: #e6f2ff;
+      padding: 2em;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .connect a {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background-color: #004466;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 <body>
+
   <!-- Navigation Bar -->
   <nav>
-    <a href="index.html">🏠 Home</a> |
-    <a href="about.html">👤 About</a> |
-    <a href="projects.html">📂 Projects</a> |
-    <a href="contact.html">📬 Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <h1>Welcome to My Portfolio</h1>
-  <p>Explore my work in climate analysis, customer segmentation, and global health. I specialize in ethical modeling, stakeholder-ready deliverables, and emotionally resonant storytelling.</p>
+  <!-- Header -->
+  <header>
+    <h1>Lisa Hansen</h1>
+    <p>Data Science Student • Ethical Modeler • Project Manager</p>
+  </header>
 
-  <!-- Project Cards -->
+  <!-- Projects Section -->
   <section>
     <h2>My Projects</h2>
 
-    <div>
+    <div class="card">
       <h3>🌡️ Climate Change Analysis</h3>
       <p>Forecasting global temperature trends and anomaly detection using time series modeling.</p>
       <a href="project1.html">View Project</a>
     </div>
 
-    <div>
+    <div class="card">
       <h3>📊 Customer Segmentation</h3>
       <p>Clustering customer behavior to support targeted marketing and business strategy.</p>
       <a href="project2.html">View Project</a>
     </div>
 
-    <div>
+    <div class="card">
       <h3>🦠 COVID-19 Vaccination Analysis</h3>
       <p>Visualizing global vaccine rollout and identifying disparities in distribution and access.</p>
       <a href="project3.html">View Project</a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section>
+  <!-- Let's Connect Section -->
+  <section class="connect">
     <h2>Let's Connect</h2>
     <p>Ready to collaborate or discuss your next data project?</p>
-    <p>📧 Email: your.email@example.com</p>
-    <p>🔗 GitHub: <a href="https://github.com/lhansen77" target="_blank">lhansen77</a></p>
-    <p>🌍 Location: Spokane Valley, WA</p>
+    <p>📧 your.email@example.com<br>
+       🌍 Spokane Valley, WA<br>
+       🔗 <a href="https://github.com/lhansen77" target="_blank">GitHub: lhansen77</a>
+    </p>
     <a href="contact.html">Get in Touch</a>
   </section>
+
 </body>
 </html>
