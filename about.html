@@ -1,28 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About Me – Lisa Hansen</title>
+  <meta charset="UTF-8">
+  <title>About – Lisa Hansen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #004466;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2em;
+    }
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2em;
+    }
+    .profile img {
+      max-width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .profile-text {
+      flex: 1;
+    }
+    h1, h2 {
+      color: #004466;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+  </style>
 </head>
 <body>
-  <h1>👩‍💼 About Me</h1>
 
-  <p>Hi, I'm <strong>Lisa Hansen</strong>—a data science student graduating in Winter 2025, with a background in pharmacy supervision and project management. I specialize in ethical modeling, stakeholder-ready deliverables, and collaborative workflow design.</p>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <p>My work bridges technical rigor with real-world impact. I translate complex requirements into actionable insights, build client-friendly dashboards, and document every step with clarity and precision. I’m passionate about fairness, transparency, and making data science accessible to diverse audiences.</p>
+  <!-- About Me Section -->
+  <section>
+    <h1>About Me</h1>
+    <div class="profile">
+      <img src="https://avatars.githubusercontent.com/u/202549312?v=4" alt="Lisa Hansen">
+      <div class="profile-text">
+        <p>Hi, I'm Lisa Hansen — a data science student graduating Winter 2025 with a background in pharmacy supervision and project management. I specialize in ethical modeling, stakeholder-ready deliverables, and collaborative workflow design.</p>
+        <p>I’m passionate about translating real-world impact into actionable insights, building client-friendly dashboards, and documenting every step with clarity and precision. My goal is to make data science accessible, transparent, and emotionally resonant for diverse audiences.</p>
+      </div>
+    </div>
 
-  <h2>🔧 Skills & Tools</h2>
-  <ul>
-    <li>Python, R, SQL</li>
-    <li>Machine Learning & Predictive Modeling</li>
-    <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
-    <li>Workflow Optimization & Project Management</li>
-    <li>Ethical Auditing & Interpretability</li>
-  </ul>
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li>Python, R, SQL</li>
+      <li>Machine Learning & Predictive Modeling</li>
+      <li>Data Cleaning, Manipulation, & Visualization</li>
+      <li>Workflow Optimization & Project Management</li>
+      <li>Ethical Modeling & Interpretability</li>
+    </ul>
 
-  <h2>🎯 What Drives Me</h2>
-  <p>I believe data science should empower—not obscure. Whether I’m forecasting climate trends, segmenting customers, or analyzing global health data, I aim to build models that are not only accurate but also fair, transparent, and useful.</p>
+    <h2>What Drives Me</h2>
+    <p>I believe in empowering others through data — whether forecasting climate trends, segmenting customers, or analyzing health outcomes. I build models that are not only accurate, but fair, transparent, and useful.</p>
+  </section>
 
-  <h2>📬 Let’s Connect</h2>
-  <p>If you're interested in collaboration, feedback, or just want to talk data, feel free to reach out via <a href="mailto:your.email@example.com">email</a> or connect on <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>.</p>
 </body>
 </html>
